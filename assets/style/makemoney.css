@@ -1,0 +1,286 @@
+.luckly{
+    float: right;
+    position: relative;
+    left: 100px;
+    top: -485px;
+    display: inline-block;
+    min-width: 600px;
+    height: 450px;
+    margin: 0px 50px -350px 0px;
+    padding: 20px 20px 20px 0px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    text-align: center;
+}
+.luckly .item{
+    width:330px;
+}
+.luckly .item h5 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #373F48;
+    color: rgba(55, 63, 72, 0.8);
+    margin-left:-20px;
+
+}
+.luckly .item-right h4{
+    margin-top: 0px;
+    color: #373F48;
+}
+.luckly .item .m-progress .progress-numb.white {
+    color: #fff;
+}
+.luckly .item .m-progress {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto 20px 80px;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #FEE2A1;
+    font-size: 35px;
+    color: #FDBF2D;
+    line-height: 92px;
+    z-index: 999;
+    /* background: url(../images/usemoney/progress.png) center center no-repeat; */
+}
+.luckly .item .luckly-numb{
+    font-size: 20pt;
+    line-height: 150px;
+}
+.luckly .item .info {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.luckly .item .info span {
+    float: left;
+    display: block;
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #373F48;
+    text-align: left;
+    width:160px;
+}
+.luckly .item .info span small {
+    display: block;
+    font-size: 12px;
+    color: #9E9E9E;
+}
+.luckly .item-right{
+    float: right;
+    position: relative;
+    top: -350px;
+    width: 250px;
+}
+.luckly .item-right .info span{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #373F48;
+    line-height: 25px;
+}
+.single{
+    padding-left: 10px;
+}
+.btn1{
+    width: 100px;
+    margin-top:10px;
+    margin-left: -30px;
+    width:100px;
+}
+.btn2{
+    width: 125px;
+    margin-left: 20px;
+    margin-top:10px;
+}
+.luckly .item-right .info .double{
+
+}
+.luckly .line{
+    float: left;
+    width: 2px;
+    height: 390px;
+    background: #FDBF2D;
+    position: relative;
+    top: -340px;
+    left: 310px;
+}
+.makemoney-list{
+    width: 50%;
+}
+.col-sm-8{
+    line-height: 36px;
+}
+.luckly
+.item .m-progress .progress-numb {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+}
+.luckly .wave {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    bottom: -10px;
+    background-color: #FDBF2D;
+}
+.luckly .wave:after {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 150px;
+    height: 30px;
+    background: url("../images/user/wave-gold.png") repeat-x;
+    background-size: auto 30px;
+    -webkit-animation: waving 4s infinite linear;
+    animation: waving 4s infinite linear;
+    content: "";
+}
+.btn-join-gold {
+    height: 35px;
+    line-height: 21px;
+    color: #fff;
+    background: #FDBF2D;
+    border-radius: 35px;
+}
+.btn-join-gold:hover{
+    color:#fff;
+    background: #FDBF2D;
+}
+.star-luckly{
+    position: absolute;
+    left: -40px;
+    top: -40px;
+    width: 120px;
+    transform: rotate(50deg);
+}
+.star-luckly2{
+    width: 25px;
+    margin-right: 5px;
+}
+.model_star{
+    position: absolute;
+    right: 23%;
+    top: -6%;
+    transform: rotate(20deg);
+    width: 150px;
+}
+#btnSendCode{
+    margin-left: -80px;
+}
+#defaultForm{
+    width:550px;
+}
+.form-text{
+    width:100px;
+    border-radius: 10px;
+    display: inline;
+}
+.form-span{
+    font-size:10pt;
+    color:#9E9E9E;
+    margin-left:10px;
+}
+.span-red{
+    color:red;
+}
+.input-red{
+    border-color:red;
+}
+@media (max-width: 768px) {
+    .luckly .item .m-progress {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin: 0 auto 20px 40px;
+        text-align: center;
+        border-radius: 50%;
+        border: 3px solid #FEE2A1;
+        font-size: 35px;
+        color: #FDBF2D;
+        line-height: 92px;
+        z-index: 999;
+        /* background: url(../images/usemoney/progress.png) center center no-repeat; */
+    }
+    #defaultForm{
+        width:100%;
+    }
+    .single {
+        padding-left: 0px;
+    }
+    .luckly {
+        float: right;
+        position: relative;
+        left: 40px;
+        top: -485px;
+        display: inline-block;
+        min-width: 600px;
+        height: 450px;
+        margin: 0px 50px -350px 0px;
+        padding: 20px 20px 20px 0px;
+        background: #fff;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        text-align: center;
+    }
+    #btnSendCode {
+        margin-left: 0px;
+        margin-top:10px;
+    }
+    .makemoney-list{
+        width: 100%;
+    }
+    .form-horizontal .btn-code{
+        min-width: 30%;
+        width:30%;
+    }
+    .luckly{
+        position: relative;
+        display: inline-block;
+        top:0px;
+        min-width: 300px;
+        height: 1000px;
+        /*margin: 0 15px;*/
+        /*padding: 20px;*/
+        background: #fff;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .luckly .item{
+        width: 230px;
+        margin-left: 30px;
+    }
+    .luckly .item .info span {
+        float: left;
+        display: block;
+        width: 50%;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #373F48;
+        text-align: left;
+    }
+
+    .luckly .line{
+        float: left;
+        width: 250px;
+        height: 2px;
+        background: #FFD700;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+    .luckly .item-right{
+        float: right;
+        position: relative;
+        top: 60px;
+        width: 230px;
+    }
+}
