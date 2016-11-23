@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<dbConnects>
+    <dbConnect>
+        <!--<dbHost>localhost</dbHost>-->
+        <!--<dbUser>root</dbUser>-->
+        <!--<dbPwd>root</dbPwd>-->
+        <!--<dbName>bypal</dbName>-->
+
+		<!--<dbHost>120.24.52.49:3307</dbHost>-->
+		<dbHost>localhost</dbHost>
+		<dbUser>root</dbUser>
+		<!--<dbPwd>123456</dbPwd>-->
+		<dbPwd>123456</dbPwd>
+		<dbName>bypal</dbName>
+	</dbConnect>
+</dbConnects>
+
